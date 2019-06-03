@@ -1,0 +1,2 @@
+default_dns=202.106.0.20
+learning=1
