@@ -1,5 +1,5 @@
-# Simple-DNS-Server-with-learning
-A Simple DNS Server with learning. Implemented DNS protocol.
+# Simple-DNS-Server
+A Simple DNS Server which can learn from messages from local DNS server. Implemented DNS protocol.
 
 Following these steps to initiate:
 1. Configure database. Import ./dns.sql to your MySQL database. Some commonly used websites are included.
