@@ -1,12 +1,12 @@
 # Simple-DNS-Server-with-learning
 A Simple DNS Server with learning. Implemented DNS protocol.
 
-使用程序流程：
-1、配置数据库；使用MySQL导入该文件夹内dns.sql（范例数据库，内含一些常见网站）即可。
+Following these steps to initiate:
+1. Configure database. Import ./dns.sql to your MySQL database. Some commonly used websites are included.
 
-2、将config.txt中的default_dns=后的IP地址改为您的本地DNS服务器的地址。具体请WIN+R输入cmd，再输入ipconfig /all查看。
+2、Add your local DNS server in config.txt after "default_dns=". If you don't know your local DNS server, you can use ipconfig /all command to find it out.
 
-3、python环境已配置好。
+3、Configure Python environment. Supported Python 3.5+. 
 
 4、修改dns配置.bat中的WLAN 2变成自己的网络连接名。用管理员权限运行dns_config.bat，将dns服务器地址改成本地回环。
 
